@@ -1,3 +1,4 @@
 # jogo_da_memoria
--copy the index path and paste in the browser url
+-download the files
+-copy the index.html path and paste in the browser
 -have a fun
