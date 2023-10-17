@@ -22,7 +22,7 @@
     function criarCartas() {
         for (let c = 0; c < 16; c++) {
             let carta = document.createElement("img"); cartas[c] = carta; baralho.appendChild(cartas[c])
-            cartas[c].src = `img/${imgsFrente[c]}.png`
+            cartas[c].src = `../resources/img/${imgsFrente[c]}.png`
             cartas[c].style.backgroundColor = "darkred"
         }
     }
@@ -127,7 +127,7 @@
         objetoCarta.style.transition = "transform .5s"
         objetoCarta.style.transform = "rotateY(90deg)"
         setTimeout(() => {
-            objetoCarta.style.transform = "rotateY(0deg)"; objetoCarta.src = `img/${imagem}.png`
+            objetoCarta.style.transform = "rotateY(0deg)"; objetoCarta.src = `../resources/img/${imagem}.png`
         }, 500)
     }
 
